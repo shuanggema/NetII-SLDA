@@ -23,16 +23,16 @@ To apply the algorithm, first use *afunN1* to construct a network structure amon
 1.gen.data
 
 - Usage
- - gen.data(n,beta,sigma,p): generate a single dataset
+  - gen.data(n,beta,sigma,p): generate a single dataset
       
 - Arguments
- - n: sample size
- - beta: length-p vector. Represent the true coefficients of subgroup Y=2
- - sigma: a matrix of dimension p. Denote the covariance matrix among predictors X
- - p: the dimension of X
+  - n: sample size
+  - beta: length-p vector. Represent the true coefficients of subgroup Y=2
+  - sigma: a matrix of dimension p. Denote the covariance matrix among predictors X
+  - p: the dimension of X
       
 - Values
- - This function returns a list containing six objects named y, y1, y2, x1, x2, and x.sub. Here y is a length-n response observation vector and x.sub is a  design matrix.  “1” and “2” denote the class labels, so y1 and x1 are the observations with class label y=1.
+ - This function returns a list containing six objects named y, y1, y2, x1, x2, and x.sub. Here y is a length-n response observation vector and x.sub is a  design matrix.  "1" and "2"�� denote the class labels, so y1 and x1 are the observations with class label y=1.
 
 2.	afunN1. This function is defined based on the N.1 adjacency measure.
 
